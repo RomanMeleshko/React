@@ -1,0 +1,297 @@
+#root {
+  left: 1%;
+  position: absolute;
+  font-family: Arial, sans-serif;
+}
+
+#global {
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  border: 1px solid black;
+  position: relative;
+  background: #67a5ad;
+}
+.text_header {
+  margin-top: 15%;
+  color: #6fcde4;
+  font-size: 28px;
+}
+.enter {
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 30%;
+}
+.login, .password {
+  width: 90%;
+  display: block;
+  text-align: center;
+  padding: 6px;
+  outline: none;
+  margin-left: 3%;
+  margin-top: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: none;
+  border-bottom: 1px solid rgba(243, 242, 235, 0.97);
+}
+.button {
+  width: 95%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5%;
+}
+
+/* style of home_page */
+#header_info {
+   color: #ffffff;
+   background-color: #67a5ad;
+}
+#kil_osib, #type_rozrah {
+  float: left;
+  width: 50%;
+}
+#service_one, #service_two {
+  float: left;
+  width: 50%;
+}
+#lic_rah_abonent {
+  font-size: 25px;
+}
+#position_button {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  margin-left: 25px;
+  float: left;
+  position: relative;
+}
+#text_under_button {
+  font-size: 12px;
+  color: #8e9092;
+  text-align: center;
+}
+#style_button {
+  width: 80px;
+  height: 80px;
+  outline: none;
+  outline: none;
+  position: relative;
+  border-radius: 50%;
+  border: none;
+  display: inline-block;
+  text-decoration: none;
+  box-shadow:
+   0 1px rgba(255,255,255,.2) inset,
+   0 3px 5px rgba(0,1,6,.5),
+   0 0 1px 1px rgba(0,1,6,.2);
+  transition: .3s ease-in-out;
+  text-shadow: 0 -1px 2px rgba(0,0,0,.2);
+  background: linear-gradient(rgba(35,64,132,0.5), rgba(237,254,255,0.5)), rgba(10,144,20,0.5);
+}
+#style_button:hover:not(:active) {
+  background: linear-gradient(rgb(126,126,134), rgb(237,240,255)), rgb(126,126,134);
+}
+#style_button:active {
+  top: 1px;
+  background: linear-gradient(rgb(76,77,82), rgb(56,57,62)) rgb(76,77,82);
+  box-shadow:
+   0 0 1px rgba(0,0,0,.5) inset,
+   0 2px 3px rgba(0,0,0,.5) inset,
+   0 1px 1px rgba(255,255,255,.1);
+}
+
+/* style of lic_page */
+#all_info_lic_rah {
+  height: 99%;
+  padding-top: 1px;
+}
+.common_user, .common_lich {
+  width: 80%;
+  height: 40px;
+  padding: 20px;
+  margin: 10px 5%;
+  color: #ffffff;
+  box-shadow: 5px -4px #d2d0e0;
+  background-color: #67a5ad;
+}
+.common_lich {
+   height: 180px;
+}
+.common_info {
+  font-size: 13px;
+}
+.info_lich {
+  height: 225px;
+  width: 300px;
+  padding: 20px;
+  top: 20px;
+  left: 30px;
+  position: relative;
+  box-shadow: 5px -4px 5px #2c2a45;
+  background-color: #67a5ad;
+}
+.left_container {
+  float: left;
+   width: 150px;
+   position: relative;
+}
+.right_container {
+  float: left;
+  width: 150px;
+  position: relative;
+}
+
+.container_button {
+   top: 185px;
+   width: 400px;
+   height: 50px;
+   position: relative;
+}
+#button_back {
+   top: 5px;
+   padding: 10px 160px;
+   position: relative;
+   outline: none;
+   text-decoration: none;
+   background-color: #67a5ad;
+}
+
+/*
+#button_back {
+ position: relative;
+ font-size: 90%;
+ font-weight: 700;
+ padding: .5em 10em;
+ outline: none;
+ border-radius: 3px;
+ text-decoration: none;
+ text-shadow: 0 -1px 2px rgba(0,0,0,.2);
+ box-shadow:
+  0 1px rgba(255,255,255,.2) inset,
+  0 3px 5px rgba(0,1,6,.5),
+  0 0 1px 1px rgba(0,1,6,.2);
+ transition: .2s ease-in-out;
+ background: linear-gradient(rgba(35,64,132,0.5), rgba(237,254,255,0.5)), rgba(10,144,20,0.5);
+}
+#button_back:hover:not(:active) {
+ background: linear-gradient(rgb(126,126,134), rgb(237,240,255)), rgb(126,126,134);
+}
+#button_back:active {
+ top: 1px;
+ background: linear-gradient(rgb(76,77,82), rgb(56,57,62)) rgb(76,77,82);
+ box-shadow:
+  0 0 1px rgba(0,0,0,.5) inset,
+  0 2px 3px rgba(0,0,0,.5) inset,
+  0 1px 1px rgba(255,255,255,.1);
+}
+*/
+#loft {
+  font-size: 0px;
+}
+
+/*  style of setting_page  */
+
+.common_block {
+  display: block;
+}
+.head_line_setting {
+  display: block;
+  padding: 10px 0px;
+  background-color: #67a5ad;
+}
+.common_text {
+  text-align: left;
+  font-size: 13px;
+}
+.common_text > div {
+  padding: 20px;
+
+}
+.common_text > div span:nth-child(2n) {
+  font-size: 12px;
+  display: block;
+  color: grey;
+}
+.popap {
+  top: -250px;
+  width: 70%;
+  display: block;
+  height: 400px;
+  left: 15%;
+  color: #ffffff;
+  position: relative;
+  animation: pulsate 0.2s linear;
+  background-color: rgba(45, 54, 33, 0.9);
+}
+.close_popap {
+  top: 50px;
+  position: relative;
+  border-radius: 10px;
+  padding: 5px 50px;
+  box-shadow:
+    inset 0 -3px 10px rgba(255,255,255,1),
+    inset 0 3px 10px rgba(0,0,0,.4),
+    0 2px 4px rgba(0,0,0,.9);
+  border: 2px solid rgba(29, 69, 77, 0.5);
+}
+@keyframes pulsate {
+  0% {background-color: rgba(45, 54, 33, 0.1);}
+  100%{background-color: rgba(45, 54, 33, 0.9);}
+}
+.text_popap {
+  top: 100px;
+  font-size: 13px;
+  position: relative;
+}
+.container {
+  height: 300px;
+  position: relative;
+}
+.container_div {
+  background-color: yellow;
+}
+.div_left, .div_right {
+  float: left;
+  padding: 7px;
+  font-size: 12px;
+  text-align: left;
+  width: 70%;
+  margin-top: 20px;
+}
+.div_right {
+  padding: 4px;
+  width: 20%;
+}
+.common_move {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  left: 10px;
+}
+.div_one {
+  position: relative;
+  width: 40px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: rgba(230, 200, 233, 0.5);
+}
+.div_two {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: -20px;
+  border-radius: 50%;
+  background-color: rgba(190, 210, 222, 0.9);
+  box-shadow:
+  inset 0 -3px 10px rgba(255,255,255,1),
+  inset 0 3px 10px rgba(0,0,0,.4),
+  0 2px 4px rgba(0,0,0,.9);
+}
+.move {
+  animation: animation 0.2s linear;
+}
+@keyframes animation {
+  100% {left: 20px}
+}
