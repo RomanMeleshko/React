@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import popap from '../popap';
 import Home from './home';
 import storage from '../storage';
+var x = true;
 
 class Setting extends React.Component {
 
